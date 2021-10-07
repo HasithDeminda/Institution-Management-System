@@ -1,0 +1,48 @@
+.btnedit{
+  text-decoration: none;
+  background-color: #04AA6D;
+  width: 50px;
+  padding: 15px;
+  color: white;
+}
+.fl-table12{
+    padding: 20px;
+}
+
+.fl-table12 {
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+.fl-table12 td,
+.fl-table12 th {
+  text-align: center;
+  padding: 5px;
+  
+}
+
+.fl-table12 td {
+  border-right: 1px solid #f8f8f8;
+  font-size: 16px;
+
+}
+
+.fl-table12 thead th {
+  color: white;
+  background: #00BFFF;
+}
+.blogcard{
+  padding: 150px;
+  margin-top: -150px;
+  word-spacing: 3px;
+  
+  
+}

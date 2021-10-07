@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.headerH{
+    height: 100vh;
+    width: 100%;
+    padding: 0 8%;
+    background: #080808;
+    position: relative;
+}
+
+.navH{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo1{
+    width: 140px;
+}
+
+.nav-linksH{
+    padding: 28px 0;
+}
+
+.nav-linksH li{
+    display: inline-block;
+    margin: 0 15px;
+    margin-top: 20px;
+}
+.nav-linksH li a{
+    
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    position: relative;
+    font-size: 18px;
+}
+
+.nav-linksH li a::after{
+    content: '';
+    background: #ff3d00;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.nav-linksH li a:hover::after{
+    width: 100%;
+}
+
+.signupH{
+    background: #ffc403;
+    color: black;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.contentH{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.contentH h1{
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif; 
+    color:whitesmoke;
+}
+/*
+.content form{
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.content form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 18px;
+} */
+
+.content form button{
+    background: #ffc403;
+    color: black;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.videoH{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}

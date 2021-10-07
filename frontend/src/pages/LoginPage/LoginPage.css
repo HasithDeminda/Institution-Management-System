@@ -1,0 +1,17 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  
+}
+
+.fullPageL{
+  margin-top: 50px;
+}
+.loginImg{
+  margin-top: -450px;
+  float: right;
+  margin-right: 250px;
+  height: 450px;
+  width: 600px;
+}

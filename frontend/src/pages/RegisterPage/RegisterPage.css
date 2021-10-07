@@ -1,0 +1,8 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.fullPageR{
+  margin-top: 25px;
+}

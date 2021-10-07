@@ -1,0 +1,20 @@
+.newstaff {
+    flex: 4 1;
+  }
+  .scroll-lgn{
+    background: #718096;
+    width: 400px;
+    margin: 10% auto;
+    padding: 30px;
+    border-radius: 50px;
+}
+.scroll-divn{
+    width: auto;
+    height: 670px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.scroll-objectn{
+    color: black;
+    padding: 20px;
+}

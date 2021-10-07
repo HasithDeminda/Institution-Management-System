@@ -1,0 +1,115 @@
+.userList {
+    flex: 4;
+  }
+  .titleList{
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .userListUser {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .userListEdit{
+      border: none;
+      border-radius: 10px;
+      padding: 5px 10px;
+      background-color: #3bb077;
+      color: white;
+      cursor: pointer;
+      margin-right: 20px;
+  }
+  
+  .userListDelete{
+      color: red;
+      cursor: pointer;
+  }
+  
+  .titleList{
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.table-wrapper {
+  margin: 10px 70px 70px;
+  box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+
+.fl-table123 {
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+.fl-table123 td,
+.fl-table123 th {
+  text-align: center;
+  padding: 5px;
+  
+}
+
+.fl-table123 td {
+  border-right: 1px solid #f8f8f8;
+  font-size: 16px;
+
+}
+
+.fl-table123 thead th {
+  color: white;
+  background: #00BFFF;
+}
+
+/* .fl-table123 thead th:nth-child(odd) {
+  color: #000000;
+  background: #5eb9ee;
+} */
+
+.Ddown1{
+  padding: 10px;
+  margin-left: 100px;
+  border: 2px solid#000000;
+  border-radius: 20px;
+  width: 250px;
+  /* width: 1060px; */
+  font-size: 16px;
+}
+
+.reportBtn1{
+  padding: 0px;
+  float: right;
+  margin-right: 100px;
+  margin-top: -1px;
+  border: 2px solid#000000;
+  width: 150px;
+  /* width: 1060px; */
+  font-size: 16px;
+  color: black;
+
+
+}
+
+.btneditH{
+  text-decoration: none;
+  background-color: #04AA6D;
+  width: 50px;
+  padding: 5px;
+  color: white;
+}
+
