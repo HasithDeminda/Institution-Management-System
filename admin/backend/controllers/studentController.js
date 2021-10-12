@@ -77,7 +77,7 @@ const registerUser = asyncHandler(async (req, res) => {
       male: user.male,
       female: user.female,
       grade: user.female,
-      //   token: generateToken(user._id),
+      
     });
   } else {
     res.status(400);
