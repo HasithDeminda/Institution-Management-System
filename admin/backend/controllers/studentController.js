@@ -133,7 +133,7 @@ const updateUserDetails = asyncHandler(async (req, res) => {
       male: updatedUser.male,
       female: updatedUser.female,
       grade: updatedUser.grade,
-      // token: generateToken(updatedUser._id),
+     
     });
   } else {
     res.status(404);
